@@ -8,13 +8,11 @@
 html body {
     height: 100vh;
     width: 97vw;
-    background-color: aqua;
 }
 
 body {
     background: url(imagens/fundo-madeira.jpg)no-repeat bottom center;
     background-size: cover;
-
 }
 
 main {
@@ -35,21 +33,25 @@ main {
 
 #tela {
     position:relative;
-    height: 472px;
-    width: 268px;
+    height: 474px;
+    width: 260px;
     left: 22px;
     top: 80px;
 }
 
 #rede-social img {
-    height: 70px;
-    width: 70px;
-    height: 100%;
+    height: 50px;
     border-radius:50%;
     display: flex;
-    margin-right: 10px;
     margin-left: auto;
-    margin-top: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+#rede-social > a >  img:hover {
+    border: 1px solid white;
+    transform: translate(-3px -3px);
+    transition: transform 2s;
 }
 
 
